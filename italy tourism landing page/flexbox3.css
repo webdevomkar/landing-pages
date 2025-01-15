@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  display: flex;
+  position: relative;
+}
+
+#nav{
+  position: absolute;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  
+}
+
+#navleft{
+  width: 190px;
+  height: 40px;
+  margin-right: 250px;
+}
+#navleft h3{
+  font-weight: 300;
+  color: white;
+  font-family: gilroy;
+  font-size: 20px;
+} 
+
+#navright{
+  gap: 80px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+#navright a {
+color: white;
+text-decoration: none;
+font-family: gilroy;
+justify-content: space-between;
+
+}
+
+#navright a :nth-child(1){
+  border-bottom: px solid white;
+  padding-bottom: 5px;
+}
+#left
+{
+  height: 100%;
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.259);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 80px;
+  gap: 50px;
+}
+
+#left .place{
+  color: white;
+  width: 100%;
+}
+#left .place :nth-child(2) h4{
+  font-size: 60px;
+}
+#left .place :nth-child(2) h6{
+  font-size: 60px;
+}
+.place h4{
+  font-weight: 500;
+}
+.place h6{
+  font-weight: 600;
+  opacity: .4;
+}
+
+#right
+{
+  height: 100%;
+  width: 75%;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0,-50%);
+  color: white;
+  text-align: end;
+  font-family: gilroy;
+}
+
+#text h1{
+  font-size: 200px;
+  line-height: 1;
+  font-weight: 300;
+}
+#text h3{
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+}
