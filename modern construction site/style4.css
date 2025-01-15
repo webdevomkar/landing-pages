@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+body,html{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1522743791393-522312deeebf?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#nav{
+  width: 100%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+
+#navlinks {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  gap: 30px;
+  
+}
+#navlinks a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+
+#navlinks #active::before{
+  content:"";
+  width: 30%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+
+#nav h5{
+  font-family: voyage;
+  font-size: 20px;
+  color: white;
+  height: 32px;
+  width: 32px;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+}
+
+#nav i{
+  height: 32px;
+  width: 32px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+}
+
+#centertxt{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: aliceblue;
+}
+#centertxt h1{
+  font-size: 85px;
+  font-weight: 500;
+  font-family: voyage;
+  width: 150px;
+  letter-spacing: 5px;
+  line-height: 1.2;
+}
+#centertxt h6{
+  font-weight: 500;
+  font-family: voyage;
+  font-size: 20px;
+}
+
+#linepara{
+  height: 150px;
+  width: 400px;
+  display: flex;
+  padding-top: 25px;
+  gap:100px;
+  position: relative;
+}
+#line{
+  width: 90px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute; 
+  top: 25%;
+}
+#para{
+   margin-left: 140px;
+   font-weight: 520;
+}
+
+#bottomtxt{
+  height: 125px;
+  width:75%;
+  background-color: #ffffff85;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 45px 45px;
+}
+
+#bottomtxt  h3{
+  font-size: 17px;  
+  margin-bottom: 7px;
+  font-weight: 549;
+}
+#bottomtxt  h5{
+  opacity: .6;
+  font-weight: 400;
+}
+
+#box{
+  height: 35px;
+  width: 35px;
+  background-color: black;
+  position: absolute;
+  bottom: 125px;
+  left: 75% ;
+  padding-top: 7px;
+}
+#box i{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
