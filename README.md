@@ -40,5 +40,5 @@ Contributions are what make the open-source community such an amazing place to b
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-Your Name - omkar- webdevomkar@gmail.com
+Omkar- webdevomkar@gmail.com
 Project Link: https://github.com/webdevomkar/landing-pages
