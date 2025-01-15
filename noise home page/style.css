@@ -1,0 +1,314 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+ min-height: 100vh;
+  width: 100vw;
+}
+
+#nav{
+  height: 6vh;
+  width: 100vw;
+  background-color: #fff;
+}
+
+#top{
+  height: 50vh;
+  width: 100vw;
+  background-image: url(https://images.unsplash.com/photo-1698709403159-d753f44b0d88?q=80&w=1939&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  gap: 50vw;
+  position: relative;
+}
+
+#logo{
+  height: 10vh;
+  width: 15vw;
+  position: absolute;
+  padding: 4vw 4vw;
+}
+
+#logo #symbol{
+  height: 5vh;
+  width: 2.2vw;
+  background-color: rgb(255, 47, 0);
+  border-radius: 50%;
+  margin-left: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo #symbol h5{
+  font-size: 1.2vw;
+  font-family: voyage;
+}
+#sytext{
+  height: 2vh;
+  width: 4vw;
+  position: absolute;
+  top: 58%;
+  left: 75%;
+}
+
+#sytext h5{
+  font-family: gilroy;
+  font-weight: 400;
+  font-size: 1vw;
+  color: white;
+  opacity: .7;
+}
+
+#top #topl{
+  height: 8vh;
+  width: 10vw;
+  padding-left: 8vw;
+  position: absolute;
+  bottom: 32%;
+}
+
+#top #topl h1{
+  font-size: 6vw;
+  font-weight: 500;
+  color: white;
+}
+
+#top #topr{
+  width: 40vw;
+  height: 20vh;
+  display: flex;
+  gap: 8vw;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 15%;
+  right: 3%;
+}
+
+#topr #para{
+  height: 8vh;
+  width: 8vw;
+}
+
+#topr .xyz{
+  font-size: 1vw;
+  font-weight: 500;
+  color: white;
+  opacity: .8;
+  margin-bottom: 1.8vh;
+}
+
+#topr .abc{
+  text-align: left;
+  color: white;
+  font-size: .7vw;
+  opacity: .6;
+}
+#topr #para2{
+  height: 8vh;
+  width: 8vw;
+}
+
+#topr #icons{
+  height: 8vh;
+  width: 10vw;
+  display: flex;
+  gap: 2vw;
+  margin-top: 8vh;
+}
+#topr #icons i{
+  color: white;
+  font-size: 2.5vh;
+}
+
+#top #iconstop{
+  width: 10vw;
+  height: 10vh;
+  position: absolute;
+  top: 17%;
+  right: 1.6%;
+  display: flex;
+  gap: 2vw;
+
+}
+
+#top #iconstop #search{
+  height: 5vh;
+  width: 2.29vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%
+}
+
+#top #iconstop #menu{
+  height: 5vh;
+  width: 2.29vw;
+  background-color:  rgb(255, 47, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%
+}
+#top #iconstop i{
+  color:black;
+  font-size: 2.5vh;
+}
+
+#bottom{
+  height: 44vh;
+  width: 100%;
+  display: flex;
+}
+
+#btm1{
+  height: 100%;
+  width: 20vw;
+  background-color: white;
+  padding: 3vw 6vw;
+}
+
+#textbtm1{
+  height: 10vh;
+  width: 5vw;
+}
+#textbtm1 h3{
+  margin-bottom: 2vw;
+  font-weight: 500;
+  font-family: gilroy;
+  opacity: .7;
+  letter-spacing: .1vw;
+}
+#textbtm p{
+  letter-spacing: .09;
+  line-height: 1;
+}
+#arrowbtm1{
+  height: 5vh;
+  width: 12vw;
+  margin-top: 7vw;
+  gap: 2vw;
+  display: flex;
+}
+#leftarrow{
+  height:5vh;
+  width: 2.2vw;
+  background-color: rgb(240, 239, 239);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#rightarrow{
+  height:5vh;
+  width: 2.2vw;
+  background-color: rgb(240, 239, 239);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btm2{
+  height: 100%;
+  width: 30vw ;
+  background-image: url(https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+}
+
+#btm3{
+  height: 100%;
+  width: 25vw;
+}
+
+#btm3top{
+  height: 50%;
+  width: 100%;
+  background-color: rgb(255, 47, 0);
+  padding: 3vw 3vw;
+}
+#btm3top h3{
+  font-family: gilroy;
+  color: white;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.4vw;
+  margin-bottom: 1.5vh;
+  line-height: 1;
+  letter-spacing: 0.3vh;
+}
+#btm3top h4{
+  font-family: gilroy;
+  color: white;
+  text-align: left;
+  font-weight: 400;
+  opacity: .8;
+  font-size: 0.7vw;
+  letter-spacing: 0.2vh;
+}
+#btm3btm{
+  height: 50%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1469388062863-8702b8cbe4f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+
+#btm4{
+  height: 100%;
+  width: 25vw;
+  background-color: rgb(44, 42, 42);
+  padding: 2vw 2vw;
+}
+#btm4 h4{
+  color: white;
+  font-weight: 500;
+  opacity: .7;
+  margin-bottom: 1.7vw;
+  font-size: 1.2vw;
+}
+
+#comments{
+  width: 20vw;
+  display: flex;
+  gap: 2vw;
+  margin-bottom: 2vw;
+}
+#imgspace{
+  height: 8vh;
+  width: 5.6vw;
+  background-image: url(https://images.unsplash.com/photo-1622519407650-3df9883f76a5?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+#textspace{
+  margin-top: .6vw;
+  height: 5vw;
+
+}
+#textspace #maincmt{
+   color: rgb(171, 166, 166);
+   font-size: 1vw;
+   letter-spacing: 0.2vh;
+}
+
+#smtdt{
+  color: rgb(171, 166, 166);
+  margin-top: .4vw;
+  font-size: .8vw;
+  letter-spacing: 0.2vh;
+}
+
